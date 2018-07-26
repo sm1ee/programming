@@ -1,0 +1,1193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{55da5960-04d3-4615-a9f3-f2fe85bace36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{141ba02d-29c7-42d3-a663-1783ba316a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="default">
+      <UniqueIdentifier>{8b80cae1-7427-488c-a1a1-9392e338d08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{b1f2d0a5-d9fb-4f13-ab3c-09155b8e71ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{6672305b-3b61-4ea0-bd12-97186b605df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\story1">
+      <UniqueIdentifier>{f6499011-3b22-45fe-9404-8df3186bc6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\story2">
+      <UniqueIdentifier>{4345a3dc-302d-4e7d-a85b-11a9fe102261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Mouse">
+      <UniqueIdentifier>{bc6bbfb9-987b-4511-80fc-303a0f8c5c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\story2\comment">
+      <UniqueIdentifier>{279760b1-8a07-4c0f-ad41-64a3c8fa8ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Background">
+      <UniqueIdentifier>{236c4cd4-6677-4197-8d53-7042f9847ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster">
+      <UniqueIdentifier>{734a02c6-ebe6-4bb0-a360-7138ab93501d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Npc">
+      <UniqueIdentifier>{4b8f7e31-c3a2-48fb-83ec-ee8ab8657c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom">
+      <UniqueIdentifier>{c0966379-d55e-4d1c-bd57-3c686dcf68f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\left">
+      <UniqueIdentifier>{cd155c40-ad41-4d66-8649-65d85eb5a79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\left\die">
+      <UniqueIdentifier>{c7595041-256f-4bb7-ab74-67dfc8bab980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\left\move">
+      <UniqueIdentifier>{c99b0a81-982f-4bd8-bc36-cd8055c4cdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\right">
+      <UniqueIdentifier>{90897154-8749-4ce7-ae9b-29000a54234f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\right\die">
+      <UniqueIdentifier>{ca7d8241-8719-473f-9b4d-196347c4310d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\right\move">
+      <UniqueIdentifier>{a7c13d85-34ab-480f-8190-bed0b46ec868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim">
+      <UniqueIdentifier>{da6e3c98-1be9-4781-9d20-c8314a4bbc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\left">
+      <UniqueIdentifier>{4fc16645-0076-4688-bc82-83955be4647c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\left\die">
+      <UniqueIdentifier>{94979d66-5e85-462e-96d2-fe13845c9860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\left\move">
+      <UniqueIdentifier>{93e5c9c2-5b8c-484d-ac8a-d0d01ceda17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\right">
+      <UniqueIdentifier>{f990b2b0-e360-4b85-b42e-e1bfcea09a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\right\die">
+      <UniqueIdentifier>{d9f109c5-cb63-4f09-a3b5-670c6102bc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\right\move">
+      <UniqueIdentifier>{315aac3f-1e5f-4159-9e7d-c51cf35e9b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\left\hit">
+      <UniqueIdentifier>{c80b2a87-c424-4abc-baef-e04f163a1ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Mushroom\right\hit">
+      <UniqueIdentifier>{d2f3a46d-5586-47fe-b3a3-7f95cb0fc504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\left\hit">
+      <UniqueIdentifier>{925ec1cb-3004-4f3d-a099-3d1b47c45492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Slim\right\hit">
+      <UniqueIdentifier>{83354771-41af-4200-b01e-1ee8e41c5073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect">
+      <UniqueIdentifier>{96a3745f-5ef0-402d-a096-321284b3d049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom">
+      <UniqueIdentifier>{c41a52ab-2e10-458a-a2ca-c5ad7311a421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\left">
+      <UniqueIdentifier>{12c954dc-814b-4425-bd28-edb13f2bbf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\right">
+      <UniqueIdentifier>{26e2ce18-fbb7-447f-8765-b4ce04434b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\left\die">
+      <UniqueIdentifier>{ecbbe302-0efd-403c-8e3f-bdbf1ce3ead9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\left\hit">
+      <UniqueIdentifier>{6bb346db-273d-4f7c-a748-f1e3516ebb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\left\move">
+      <UniqueIdentifier>{2df55f9c-411a-477f-9999-a45fea1e2ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\left\attack">
+      <UniqueIdentifier>{02ce5b34-75b6-43d0-b98d-aab5fd571023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\right\die">
+      <UniqueIdentifier>{c30c4e1c-6cfe-4789-b7fc-18686317324d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\right\hit">
+      <UniqueIdentifier>{399a3c92-03dc-46af-866f-dbb0779430fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\right\move">
+      <UniqueIdentifier>{49b6acc4-a057-4de8-be72-21750bac6964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Monster\Zombie_Mushroom\right\attack">
+      <UniqueIdentifier>{942f665b-e1a6-4b02-92b7-aadbec90e5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player">
+      <UniqueIdentifier>{eb7cac39-8b04-4e72-becd-c49b0b3cf789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy">
+      <UniqueIdentifier>{b2ae44a7-0bed-4149-8b4f-d0335bc77c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left">
+      <UniqueIdentifier>{50290edc-6df5-45a4-a4e0-1503f9cd2166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left\default">
+      <UniqueIdentifier>{f23f9277-1e15-4bdd-9884-9c78aa3013b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left\attack">
+      <UniqueIdentifier>{e27686bc-ac39-4f8b-a071-06eba500c203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left\die">
+      <UniqueIdentifier>{1fcf8db6-d1e2-43e0-96e5-84df5409a3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left\jump">
+      <UniqueIdentifier>{10c62ff0-3448-486e-8b71-49148f73e891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right">
+      <UniqueIdentifier>{390eba92-4774-4701-913c-54a7540ca1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right\default">
+      <UniqueIdentifier>{f6ef499e-4890-46ad-b0c4-95e498ec21c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right\attack">
+      <UniqueIdentifier>{c447f259-b06e-4bee-8a9c-14698e54c2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right\die">
+      <UniqueIdentifier>{6bb5345b-1066-4662-b2a1-36dbaf03b226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right\jump">
+      <UniqueIdentifier>{bee31d54-11b8-4044-8831-6bf9f23420bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left\alert">
+      <UniqueIdentifier>{953ee12e-7e4b-40cc-9dd4-ff389ac321b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left\rope">
+      <UniqueIdentifier>{0bc43773-388c-4e06-a911-18269bf464a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right\rope">
+      <UniqueIdentifier>{8e7360ea-47de-4043-9ae2-c52c5cbab4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right\alert">
+      <UniqueIdentifier>{d6f4cee1-aecf-44da-8dde-297bf16b1afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Windows">
+      <UniqueIdentifier>{e9b764a0-08ff-4902-93c1-4ce3189e55f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\right\move">
+      <UniqueIdentifier>{c678c04a-26b0-4503-8d0b-8d0bff3a4be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Boy\left\move">
+      <UniqueIdentifier>{7b0bd2a5-1ae0-4e73-b430-bac584c72a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Item">
+      <UniqueIdentifier>{6baff4e4-637d-4e3f-b476-978473aba81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\left">
+      <UniqueIdentifier>{795de6ed-ad1b-4d2d-9ab7-3e95b42196b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\right">
+      <UniqueIdentifier>{efbfce03-617e-44fd-b091-467db699894a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\left\magic_claw_effect">
+      <UniqueIdentifier>{b2d69bfa-9664-46dd-bfee-419f25e23df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\left\magic_claw_hit">
+      <UniqueIdentifier>{ccd4bfd7-2a3e-4ea8-8b5d-e9d52186539e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\left\sword">
+      <UniqueIdentifier>{9a22b248-30f5-4c83-a4d1-34a582178e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\left\teleport">
+      <UniqueIdentifier>{23bda28d-1f5b-486d-a30d-a8f5fb0feccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\left\Zombie_Mushroom">
+      <UniqueIdentifier>{12822208-2587-4dc4-9c36-2a469fae69de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\right\Zombie_Mushroom">
+      <UniqueIdentifier>{cbd6d512-a56b-4263-9a96-e6527c30671c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\right\magic_claw_effect">
+      <UniqueIdentifier>{1dd16ad8-0cb9-4dd8-a63a-af61c7865437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\right\teleport">
+      <UniqueIdentifier>{9d0f4545-ab96-44c5-be83-096cb028f090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\right\sword">
+      <UniqueIdentifier>{782b88dd-314c-412e-bdb4-9ca23ebfa695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl">
+      <UniqueIdentifier>{566363b1-c178-48bc-9597-14e63a10ecb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left">
+      <UniqueIdentifier>{82d4f343-a31c-4e12-9e0b-c9f75d55b75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left\default">
+      <UniqueIdentifier>{35dc0a45-f37e-423f-b476-8327e395f367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left\attack">
+      <UniqueIdentifier>{6f704364-23e5-411e-8b2a-6b9ba5a2a5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left\die">
+      <UniqueIdentifier>{8956cf80-2cae-40c7-bd09-a02660d53134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left\jump">
+      <UniqueIdentifier>{593aaffb-76cc-4264-a609-b066e5188096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left\alert">
+      <UniqueIdentifier>{6cbd4eec-b0ae-42c1-a231-65af2ea9c073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left\move">
+      <UniqueIdentifier>{d22204f8-651e-4870-93ed-4c3a19d0cd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\left\skill">
+      <UniqueIdentifier>{dcb74137-d988-4fad-9fee-d01aaa618ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right">
+      <UniqueIdentifier>{9806101d-440a-48cb-840f-148a1aff1869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right\default">
+      <UniqueIdentifier>{4b899e22-2127-4049-8adc-2f7893bb19bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right\attack">
+      <UniqueIdentifier>{749a720e-7f5d-495b-a040-f1ca8c6fb0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right\die">
+      <UniqueIdentifier>{66b40120-24d7-4bd1-ba5f-5b6c3c704bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right\jump">
+      <UniqueIdentifier>{a56f7cfd-5f1d-4f4c-9aaa-ddf7f168998d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right\alert">
+      <UniqueIdentifier>{d1806fae-3685-4553-a401-11a28f4bd5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right\move">
+      <UniqueIdentifier>{ec9a620d-bd89-4a21-a89e-12524ac7b062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\Player\Girl\right\skill">
+      <UniqueIdentifier>{a110d793-ed01-41f3-8029-86f67eb2e12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\right\magic_claw_hit">
+      <UniqueIdentifier>{ed1694fe-917f-40c7-87f4-787cd6c67752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\left\life">
+      <UniqueIdentifier>{ddbb2bea-be79-43d5-891e-e6dab2436e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image\effect\right\life">
+      <UniqueIdentifier>{5b734ffe-e100-4c15-b2ce-3c045a365c9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="define.h">
+      <Filter>default</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>default</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWork.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monster.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHeader.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
+    <Text Include="Image\story2\comment\0.txt">
+      <Filter>Image\story2\comment</Filter>
+    </Text>
+    <Text Include="Image\story2\comment\1.txt">
+      <Filter>Image\story2\comment</Filter>
+    </Text>
+    <Text Include="Image\story2\comment\2.txt">
+      <Filter>Image\story2\comment</Filter>
+    </Text>
+    <Text Include="Image\story2\comment\3.txt">
+      <Filter>Image\story2\comment</Filter>
+    </Text>
+    <Text Include="Image\story2\comment\4.txt">
+      <Filter>Image\story2\comment</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\Mouse\click.bmp">
+      <Filter>Image\Mouse</Filter>
+    </Image>
+    <Image Include="Image\Mouse\default.bmp">
+      <Filter>Image\Mouse</Filter>
+    </Image>
+    <Image Include="Image\story2\background.bmp">
+      <Filter>Image\story2</Filter>
+    </Image>
+    <Image Include="Image\story2\man.bmp">
+      <Filter>Image\story2</Filter>
+    </Image>
+    <Image Include="Image\story2\npc.bmp">
+      <Filter>Image\story2</Filter>
+    </Image>
+    <Image Include="Image\story2\textleft.bmp">
+      <Filter>Image\story2</Filter>
+    </Image>
+    <Image Include="Image\story2\textright.bmp">
+      <Filter>Image\story2</Filter>
+    </Image>
+    <Image Include="Image\story2\woman.bmp">
+      <Filter>Image\story2</Filter>
+    </Image>
+    <Image Include="Image\story1\background.bmp">
+      <Filter>Image\story1</Filter>
+    </Image>
+    <Image Include="Image\story1\man.bmp">
+      <Filter>Image\story1</Filter>
+    </Image>
+    <Image Include="Image\story1\woman.bmp">
+      <Filter>Image\story1</Filter>
+    </Image>
+    <Image Include="Image\background\background1.bmp">
+      <Filter>Image\Background</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\left\die\die1_2.bmp">
+      <Filter>Image\Monster\Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\left\die\die1_0.bmp">
+      <Filter>Image\Monster\Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\left\die\die1_1.bmp">
+      <Filter>Image\Monster\Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\left\hit\hit1_0.bmp">
+      <Filter>Image\Monster\Mushroom\left\hit</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\left\move\move_0.bmp">
+      <Filter>Image\Monster\Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\left\move\move_1.bmp">
+      <Filter>Image\Monster\Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\left\move\move_2.bmp">
+      <Filter>Image\Monster\Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\right\die\die1_2.bmp">
+      <Filter>Image\Monster\Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\right\die\die1_0.bmp">
+      <Filter>Image\Monster\Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\right\die\die1_1.bmp">
+      <Filter>Image\Monster\Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\right\hit\hit1_0.bmp">
+      <Filter>Image\Monster\Mushroom\right\hit</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\right\move\move_2.bmp">
+      <Filter>Image\Monster\Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\right\move\move_0.bmp">
+      <Filter>Image\Monster\Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Mushroom\right\move\move_1.bmp">
+      <Filter>Image\Monster\Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_1.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_2.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_3.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_4.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_4.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_1.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_2.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_3.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\hit\hit1_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\hit</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_5.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_1.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_2.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_3.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_4.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_4.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_1.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_2.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_3.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_4.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_1.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_2.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_3.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\hit\hit1_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\hit</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\jump_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_0.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_1.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_2.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_3.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_4.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_5.bmp">
+      <Filter>Image\Monster\Zombie_Mushroom\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\die\die1_3.bmp">
+      <Filter>Image\Monster\Slim\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\die\die1_0.bmp">
+      <Filter>Image\Monster\Slim\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\die\die1_1.bmp">
+      <Filter>Image\Monster\Slim\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\die\die1_2.bmp">
+      <Filter>Image\Monster\Slim\left\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\hit\hit1_0.bmp">
+      <Filter>Image\Monster\Slim\left\hit</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\move\move_0.bmp">
+      <Filter>Image\Monster\Slim\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\move\move_1.bmp">
+      <Filter>Image\Monster\Slim\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\move\move_2.bmp">
+      <Filter>Image\Monster\Slim\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\move\move_3.bmp">
+      <Filter>Image\Monster\Slim\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\move\move_4.bmp">
+      <Filter>Image\Monster\Slim\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\move\move_5.bmp">
+      <Filter>Image\Monster\Slim\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\left\move\move_6.bmp">
+      <Filter>Image\Monster\Slim\left\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\die\die1_3.bmp">
+      <Filter>Image\Monster\Slim\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\die\die1_0.bmp">
+      <Filter>Image\Monster\Slim\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\die\die1_1.bmp">
+      <Filter>Image\Monster\Slim\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\die\die1_2.bmp">
+      <Filter>Image\Monster\Slim\right\die</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\hit\hit1_0.bmp">
+      <Filter>Image\Monster\Slim\right\hit</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\move\move_4.bmp">
+      <Filter>Image\Monster\Slim\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\move\move_5.bmp">
+      <Filter>Image\Monster\Slim\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\move\move_6.bmp">
+      <Filter>Image\Monster\Slim\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\move\move_0.bmp">
+      <Filter>Image\Monster\Slim\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\move\move_1.bmp">
+      <Filter>Image\Monster\Slim\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\move\move_2.bmp">
+      <Filter>Image\Monster\Slim\right\move</Filter>
+    </Image>
+    <Image Include="Image\Monster\Slim\right\move\move_3.bmp">
+      <Filter>Image\Monster\Slim\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\alert\alert_0.bmp">
+      <Filter>Image\Player\Boy\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\alert\alert_1.bmp">
+      <Filter>Image\Player\Boy\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\alert\alert_2.bmp">
+      <Filter>Image\Player\Boy\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\alert\alert_3.bmp">
+      <Filter>Image\Player\Boy\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\alert\alert_4.bmp">
+      <Filter>Image\Player\Boy\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\attack\swingO1_0.bmp">
+      <Filter>Image\Player\Boy\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\attack\swingO1_1.bmp">
+      <Filter>Image\Player\Boy\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\attack\swingO1_2.bmp">
+      <Filter>Image\Player\Boy\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\attack\swingO3_0.bmp">
+      <Filter>Image\Player\Boy\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\attack\swingO3_1.bmp">
+      <Filter>Image\Player\Boy\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\attack\swingO3_2.bmp">
+      <Filter>Image\Player\Boy\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\default\stand1_0.bmp">
+      <Filter>Image\Player\Boy\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\default\stand1_1.bmp">
+      <Filter>Image\Player\Boy\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\default\stand1_2.bmp">
+      <Filter>Image\Player\Boy\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\default\stand1_3.bmp">
+      <Filter>Image\Player\Boy\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\jump\jump_0.bmp">
+      <Filter>Image\Player\Boy\left\jump</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\rope\ladder_0.bmp">
+      <Filter>Image\Player\Boy\left\rope</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\rope\ladder_1.bmp">
+      <Filter>Image\Player\Boy\left\rope</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\alert\alert_0.bmp">
+      <Filter>Image\Player\Boy\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\alert\alert_1.bmp">
+      <Filter>Image\Player\Boy\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\alert\alert_2.bmp">
+      <Filter>Image\Player\Boy\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\alert\alert_3.bmp">
+      <Filter>Image\Player\Boy\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\alert\alert_4.bmp">
+      <Filter>Image\Player\Boy\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\rope\rope_0.bmp">
+      <Filter>Image\Player\Boy\right\rope</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\rope\rope_1.bmp">
+      <Filter>Image\Player\Boy\right\rope</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\jump\jump_0.bmp">
+      <Filter>Image\Player\Boy\right\jump</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\default\stand1_0.bmp">
+      <Filter>Image\Player\Boy\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\default\stand1_1.bmp">
+      <Filter>Image\Player\Boy\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\default\stand1_2.bmp">
+      <Filter>Image\Player\Boy\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\default\stand1_3.bmp">
+      <Filter>Image\Player\Boy\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\attack\swingO1_0.bmp">
+      <Filter>Image\Player\Boy\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\attack\swingO1_1.bmp">
+      <Filter>Image\Player\Boy\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\attack\swingO1_2.bmp">
+      <Filter>Image\Player\Boy\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\attack\swingO3_0.bmp">
+      <Filter>Image\Player\Boy\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\attack\swingO3_1.bmp">
+      <Filter>Image\Player\Boy\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\attack\swingO3_2.bmp">
+      <Filter>Image\Player\Boy\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\alert\alert_0.bmp">
+      <Filter>Image\Player\Girl\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\alert\alert_1.bmp">
+      <Filter>Image\Player\Girl\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\alert\alert_2.bmp">
+      <Filter>Image\Player\Girl\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\alert\alert_3.bmp">
+      <Filter>Image\Player\Girl\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\alert\alert_4.bmp">
+      <Filter>Image\Player\Girl\right\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\jump\jump_0.bmp">
+      <Filter>Image\Player\Girl\right\jump</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\default\stand1_0.bmp">
+      <Filter>Image\Player\Girl\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\default\stand1_1.bmp">
+      <Filter>Image\Player\Girl\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\default\stand1_2.bmp">
+      <Filter>Image\Player\Girl\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\default\stand1_3.bmp">
+      <Filter>Image\Player\Girl\right\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\attack\swingO1_0.bmp">
+      <Filter>Image\Player\Girl\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\attack\swingO1_1.bmp">
+      <Filter>Image\Player\Girl\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\attack\swingO1_2.bmp">
+      <Filter>Image\Player\Girl\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\attack\swingO3_0.bmp">
+      <Filter>Image\Player\Girl\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\attack\swingO3_1.bmp">
+      <Filter>Image\Player\Girl\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\attack\swingO3_2.bmp">
+      <Filter>Image\Player\Girl\right\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\jump\jump_0.bmp">
+      <Filter>Image\Player\Girl\left\jump</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\default\stand1_0.bmp">
+      <Filter>Image\Player\Girl\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\default\stand1_1.bmp">
+      <Filter>Image\Player\Girl\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\default\stand1_2.bmp">
+      <Filter>Image\Player\Girl\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\default\stand1_3.bmp">
+      <Filter>Image\Player\Girl\left\default</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\attack\swingO1_0.bmp">
+      <Filter>Image\Player\Girl\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\attack\swingO1_1.bmp">
+      <Filter>Image\Player\Girl\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\attack\swingO1_2.bmp">
+      <Filter>Image\Player\Girl\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\attack\swingO3_0.bmp">
+      <Filter>Image\Player\Girl\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\attack\swingO3_1.bmp">
+      <Filter>Image\Player\Girl\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\attack\swingO3_2.bmp">
+      <Filter>Image\Player\Girl\left\attack</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\alert\alert_0.bmp">
+      <Filter>Image\Player\Girl\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\alert\alert_1.bmp">
+      <Filter>Image\Player\Girl\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\alert\alert_2.bmp">
+      <Filter>Image\Player\Girl\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\alert\alert_3.bmp">
+      <Filter>Image\Player\Girl\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\alert\alert_4.bmp">
+      <Filter>Image\Player\Girl\left\alert</Filter>
+    </Image>
+    <Image Include="Image\Windows\Inventory.bmp">
+      <Filter>Image\Windows</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\move\move1_0.bmp">
+      <Filter>Image\Player\Boy\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\move\move1_1.bmp">
+      <Filter>Image\Player\Boy\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\move\move1_2.bmp">
+      <Filter>Image\Player\Boy\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\left\move\move1_3.bmp">
+      <Filter>Image\Player\Boy\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\move\move1_0 (1).bmp">
+      <Filter>Image\Player\Boy\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\move\move1_0 (2).bmp">
+      <Filter>Image\Player\Boy\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\move\move1_0 (3).bmp">
+      <Filter>Image\Player\Boy\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Boy\right\move\move1_0 (4).bmp">
+      <Filter>Image\Player\Boy\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\move\move1_0 (1).bmp">
+      <Filter>Image\Player\Girl\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\move\move1_0 (2).bmp">
+      <Filter>Image\Player\Girl\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\move\move1_0 (3).bmp">
+      <Filter>Image\Player\Girl\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\move\move1_0 (4).bmp">
+      <Filter>Image\Player\Girl\left\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\move\move1_0 (1).bmp">
+      <Filter>Image\Player\Girl\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\move\move1_0 (2).bmp">
+      <Filter>Image\Player\Girl\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\move\move1_0 (3).bmp">
+      <Filter>Image\Player\Girl\right\move</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\move\move1_0 (4).bmp">
+      <Filter>Image\Player\Girl\right\move</Filter>
+    </Image>
+    <Image Include="Image\Item\cake.bmp">
+      <Filter>Image\Item</Filter>
+    </Image>
+    <Image Include="Image\Item\dduk.bmp">
+      <Filter>Image\Item</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabO2.1_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabO2.1_1.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabOF.2_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabOF.2_1.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD1.1_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD1.1_1.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD1.1_2.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD1.1_3.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD2.1_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD2.1_1.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD2.1_2.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingD2.1_3.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingO1.2_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingO2.2_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingO3.2_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.swingOF.3_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabD1.1_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabD1.1_1.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabD1.1_2.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabD1.1_3.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabO1.1_0.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\sword\11.stabO1.1_1.bmp">
+      <Filter>Image\effect\left\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\left\teleport\Teleport_2.bmp">
+      <Filter>Image\effect\left\teleport</Filter>
+    </Image>
+    <Image Include="Image\effect\left\teleport\Teleport_3.bmp">
+      <Filter>Image\effect\left\teleport</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_6.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_7.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_8.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_9.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_10.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_11.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_12.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_13.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_14.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_0.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_1.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_2.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_3.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_4.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_5.bmp">
+      <Filter>Image\effect\left\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\magic_claw_effect\effect_0_5.bmp">
+      <Filter>Image\effect\right\magic_claw_effect</Filter>
+    </Image>
+    <Image Include="Image\effect\right\magic_claw_effect\effect_1_6.bmp">
+      <Filter>Image\effect\right\magic_claw_effect</Filter>
+    </Image>
+    <Image Include="Image\effect\right\magic_claw_effect\effect_2_7.bmp">
+      <Filter>Image\effect\right\magic_claw_effect</Filter>
+    </Image>
+    <Image Include="Image\effect\right\magic_claw_hit\hit 0_2_2.bmp">
+      <Filter>Image\effect\right\magic_claw_hit</Filter>
+    </Image>
+    <Image Include="Image\effect\right\magic_claw_hit\hit 0_3_3.bmp">
+      <Filter>Image\effect\right\magic_claw_hit</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD1.1_3.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD2.1_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD2.1_1.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD2.1_2.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD2.1_3.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingO1.2_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingO2.2_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingO3.2_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingOF.3_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabD1.1_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabD1.1_1.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabD1.1_2.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabD1.1_3.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabO1.1_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabO1.1_1.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabO2.1_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabO2.1_1.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabOF.2_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.stabOF.2_1.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD1.1_0.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD1.1_1.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\sword\11.swingD1.1_2.bmp">
+      <Filter>Image\effect\right\sword</Filter>
+    </Image>
+    <Image Include="Image\effect\right\teleport\Teleport_3.bmp">
+      <Filter>Image\effect\right\teleport</Filter>
+    </Image>
+    <Image Include="Image\effect\right\teleport\Teleport_2.bmp">
+      <Filter>Image\effect\right\teleport</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_6.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_7.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_8.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_9.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_10.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_11.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_12.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_13.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_14.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_0.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_1.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_2.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_3.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_4.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_5.bmp">
+      <Filter>Image\effect\right\Zombie_Mushroom</Filter>
+    </Image>
+    <Image Include="Image\effect\left\magic_claw_effect\effect_2_7.bmp">
+      <Filter>Image\effect\left\magic_claw_effect</Filter>
+    </Image>
+    <Image Include="Image\effect\left\magic_claw_effect\effect_1_6.bmp">
+      <Filter>Image\effect\left\magic_claw_effect</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\skill\swingO3_1.bmp">
+      <Filter>Image\Player\Girl\left\skill</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\skill\swingO3_2.bmp">
+      <Filter>Image\Player\Girl\left\skill</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\left\skill\swingO3_0.bmp">
+      <Filter>Image\Player\Girl\left\skill</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\skill\swingO3_0.bmp">
+      <Filter>Image\Player\Girl\right\skill</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\skill\swingO3_1.bmp">
+      <Filter>Image\Player\Girl\right\skill</Filter>
+    </Image>
+    <Image Include="Image\Player\Girl\right\skill\swingO3_2.bmp">
+      <Filter>Image\Player\Girl\right\skill</Filter>
+    </Image>
+    <Image Include="Image\effect\left\magic_claw_hit\hit 0_2_2.bmp">
+      <Filter>Image\effect\left\magic_claw_hit</Filter>
+    </Image>
+    <Image Include="Image\effect\left\magic_claw_hit\hit 0_3_3.bmp">
+      <Filter>Image\effect\left\magic_claw_hit</Filter>
+    </Image>
+    <Image Include="Image\effect\left\life\h1.bmp">
+      <Filter>Image\effect\left\life</Filter>
+    </Image>
+    <Image Include="Image\effect\left\life\hp2.bmp">
+      <Filter>Image\effect\left\life</Filter>
+    </Image>
+    <Image Include="Image\effect\right\life\h1.bmp">
+      <Filter>Image\effect\right\life</Filter>
+    </Image>
+    <Image Include="Image\effect\right\life\hp2.bmp">
+      <Filter>Image\effect\right\life</Filter>
+    </Image>
+    <Image Include="Image\effect\right\magic_claw_effect\effect_1_5.bmp">
+      <Filter>Image\effect\left\magic_claw_hit</Filter>
+    </Image>
+    <Image Include="Image\effect\left\magic_claw_effect\effect_1_5.bmp">
+      <Filter>Image\effect\left\magic_claw_effect</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

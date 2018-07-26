@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E7E9FDA-8912-49FD-96E5-206685457B3A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>maple</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="define.h" />
+    <ClCompile Include="FrameWork.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Npc.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundManager.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Fps.h" />
+    <ClInclude Include="ImgManager.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="InventoryManager.h" />
+    <ClInclude Include="Npc.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MyHeader.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjManager.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Image\story2\comment\0.txt" />
+    <Text Include="Image\story2\comment\1.txt" />
+    <Text Include="Image\story2\comment\2.txt" />
+    <Text Include="Image\story2\comment\3.txt" />
+    <Text Include="Image\story2\comment\4.txt" />
+    <Text Include="Text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\background\background1.bmp" />
+    <Image Include="Image\effect\left\life\h1.bmp" />
+    <Image Include="Image\effect\left\life\hp2.bmp" />
+    <Image Include="Image\effect\left\magic_claw_effect\effect_1_5.bmp" />
+    <Image Include="Image\effect\left\magic_claw_effect\effect_1_6.bmp" />
+    <Image Include="Image\effect\left\magic_claw_effect\effect_2_7.bmp" />
+    <Image Include="Image\effect\left\magic_claw_hit\hit 0_2_2.bmp" />
+    <Image Include="Image\effect\left\magic_claw_hit\hit 0_3_3.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabD1.1_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabD1.1_1.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabD1.1_2.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabD1.1_3.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabO1.1_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabO1.1_1.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabO2.1_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabO2.1_1.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabOF.2_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.stabOF.2_1.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD1.1_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD1.1_1.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD1.1_2.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD1.1_3.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD2.1_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD2.1_1.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD2.1_2.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingD2.1_3.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingO1.2_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingO2.2_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingO3.2_0.bmp" />
+    <Image Include="Image\effect\left\sword\11.swingOF.3_0.bmp" />
+    <Image Include="Image\effect\left\teleport\Teleport_2.bmp" />
+    <Image Include="Image\effect\left\teleport\Teleport_3.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_0.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_1.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_10.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_11.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_12.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_13.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_14.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_2.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_3.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_4.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_5.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_6.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_7.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_8.bmp" />
+    <Image Include="Image\effect\left\Zombie_Mushroom\attack1.info.effect_9.bmp" />
+    <Image Include="Image\effect\right\life\h1.bmp" />
+    <Image Include="Image\effect\right\life\hp2.bmp" />
+    <Image Include="Image\effect\right\magic_claw_effect\effect_0_5.bmp" />
+    <Image Include="Image\effect\right\magic_claw_effect\effect_1_5.bmp" />
+    <Image Include="Image\effect\right\magic_claw_effect\effect_1_6.bmp" />
+    <Image Include="Image\effect\right\magic_claw_effect\effect_2_7.bmp" />
+    <Image Include="Image\effect\right\magic_claw_hit\hit 0_2_2.bmp" />
+    <Image Include="Image\effect\right\magic_claw_hit\hit 0_3_3.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabD1.1_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabD1.1_1.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabD1.1_2.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabD1.1_3.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabO1.1_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabO1.1_1.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabO2.1_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabO2.1_1.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabOF.2_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.stabOF.2_1.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD1.1_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD1.1_1.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD1.1_2.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD1.1_3.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD2.1_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD2.1_1.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD2.1_2.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingD2.1_3.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingO1.2_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingO2.2_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingO3.2_0.bmp" />
+    <Image Include="Image\effect\right\sword\11.swingOF.3_0.bmp" />
+    <Image Include="Image\effect\right\teleport\Teleport_2.bmp" />
+    <Image Include="Image\effect\right\teleport\Teleport_3.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_0.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_1.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_10.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_11.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_12.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_13.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_14.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_2.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_3.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_4.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_5.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_6.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_7.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_8.bmp" />
+    <Image Include="Image\effect\right\Zombie_Mushroom\attack1.info.effect_9.bmp" />
+    <Image Include="Image\Item\cake.bmp" />
+    <Image Include="Image\Item\dduk.bmp" />
+    <Image Include="Image\Monster\Mushroom\left\die\die1_0.bmp" />
+    <Image Include="Image\Monster\Mushroom\left\die\die1_1.bmp" />
+    <Image Include="Image\Monster\Mushroom\left\die\die1_2.bmp" />
+    <Image Include="Image\Monster\Mushroom\left\hit\hit1_0.bmp" />
+    <Image Include="Image\Monster\Mushroom\left\move\move_0.bmp" />
+    <Image Include="Image\Monster\Mushroom\left\move\move_1.bmp" />
+    <Image Include="Image\Monster\Mushroom\left\move\move_2.bmp" />
+    <Image Include="Image\Monster\Mushroom\right\die\die1_0.bmp" />
+    <Image Include="Image\Monster\Mushroom\right\die\die1_1.bmp" />
+    <Image Include="Image\Monster\Mushroom\right\die\die1_2.bmp" />
+    <Image Include="Image\Monster\Mushroom\right\hit\hit1_0.bmp" />
+    <Image Include="Image\Monster\Mushroom\right\move\move_0.bmp" />
+    <Image Include="Image\Monster\Mushroom\right\move\move_1.bmp" />
+    <Image Include="Image\Monster\Mushroom\right\move\move_2.bmp" />
+    <Image Include="Image\Monster\Slim\left\die\die1_0.bmp" />
+    <Image Include="Image\Monster\Slim\left\die\die1_1.bmp" />
+    <Image Include="Image\Monster\Slim\left\die\die1_2.bmp" />
+    <Image Include="Image\Monster\Slim\left\die\die1_3.bmp" />
+    <Image Include="Image\Monster\Slim\left\hit\hit1_0.bmp" />
+    <Image Include="Image\Monster\Slim\left\move\move_0.bmp" />
+    <Image Include="Image\Monster\Slim\left\move\move_1.bmp" />
+    <Image Include="Image\Monster\Slim\left\move\move_2.bmp" />
+    <Image Include="Image\Monster\Slim\left\move\move_3.bmp" />
+    <Image Include="Image\Monster\Slim\left\move\move_4.bmp" />
+    <Image Include="Image\Monster\Slim\left\move\move_5.bmp" />
+    <Image Include="Image\Monster\Slim\left\move\move_6.bmp" />
+    <Image Include="Image\Monster\Slim\right\die\die1_0.bmp" />
+    <Image Include="Image\Monster\Slim\right\die\die1_1.bmp" />
+    <Image Include="Image\Monster\Slim\right\die\die1_2.bmp" />
+    <Image Include="Image\Monster\Slim\right\die\die1_3.bmp" />
+    <Image Include="Image\Monster\Slim\right\hit\hit1_0.bmp" />
+    <Image Include="Image\Monster\Slim\right\move\move_0.bmp" />
+    <Image Include="Image\Monster\Slim\right\move\move_1.bmp" />
+    <Image Include="Image\Monster\Slim\right\move\move_2.bmp" />
+    <Image Include="Image\Monster\Slim\right\move\move_3.bmp" />
+    <Image Include="Image\Monster\Slim\right\move\move_4.bmp" />
+    <Image Include="Image\Monster\Slim\right\move\move_5.bmp" />
+    <Image Include="Image\Monster\Slim\right\move\move_6.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_1.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_2.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_3.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\attack\attack1_4.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_1.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_2.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_3.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\die\die1_4.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\hit\hit1_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_1.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_2.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_3.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_4.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\left\move\move_5.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_1.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_2.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_3.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\attack\attack1_4.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_1.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_2.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_3.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\die\die1_4.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\hit\hit1_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\jump_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_0.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_1.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_2.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_3.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_4.bmp" />
+    <Image Include="Image\Monster\Zombie_Mushroom\right\move\move_5.bmp" />
+    <Image Include="Image\Mouse\click.bmp" />
+    <Image Include="Image\Mouse\default.bmp" />
+    <Image Include="Image\Player\Boy\left\alert\alert_0.bmp" />
+    <Image Include="Image\Player\Boy\left\alert\alert_1.bmp" />
+    <Image Include="Image\Player\Boy\left\alert\alert_2.bmp" />
+    <Image Include="Image\Player\Boy\left\alert\alert_3.bmp" />
+    <Image Include="Image\Player\Boy\left\alert\alert_4.bmp" />
+    <Image Include="Image\Player\Boy\left\attack\swingO1_0.bmp" />
+    <Image Include="Image\Player\Boy\left\attack\swingO1_1.bmp" />
+    <Image Include="Image\Player\Boy\left\attack\swingO1_2.bmp" />
+    <Image Include="Image\Player\Boy\left\attack\swingO3_0.bmp" />
+    <Image Include="Image\Player\Boy\left\attack\swingO3_1.bmp" />
+    <Image Include="Image\Player\Boy\left\attack\swingO3_2.bmp" />
+    <Image Include="Image\Player\Boy\left\default\stand1_0.bmp" />
+    <Image Include="Image\Player\Boy\left\default\stand1_1.bmp" />
+    <Image Include="Image\Player\Boy\left\default\stand1_2.bmp" />
+    <Image Include="Image\Player\Boy\left\default\stand1_3.bmp" />
+    <Image Include="Image\Player\Boy\left\jump\jump_0.bmp" />
+    <Image Include="Image\Player\Boy\left\move\move1_0.bmp" />
+    <Image Include="Image\Player\Boy\left\move\move1_1.bmp" />
+    <Image Include="Image\Player\Boy\left\move\move1_2.bmp" />
+    <Image Include="Image\Player\Boy\left\move\move1_3.bmp" />
+    <Image Include="Image\Player\Boy\left\rope\ladder_0.bmp" />
+    <Image Include="Image\Player\Boy\left\rope\ladder_1.bmp" />
+    <Image Include="Image\Player\Boy\right\alert\alert_0.bmp" />
+    <Image Include="Image\Player\Boy\right\alert\alert_1.bmp" />
+    <Image Include="Image\Player\Boy\right\alert\alert_2.bmp" />
+    <Image Include="Image\Player\Boy\right\alert\alert_3.bmp" />
+    <Image Include="Image\Player\Boy\right\alert\alert_4.bmp" />
+    <Image Include="Image\Player\Boy\right\attack\swingO1_0.bmp" />
+    <Image Include="Image\Player\Boy\right\attack\swingO1_1.bmp" />
+    <Image Include="Image\Player\Boy\right\attack\swingO1_2.bmp" />
+    <Image Include="Image\Player\Boy\right\attack\swingO3_0.bmp" />
+    <Image Include="Image\Player\Boy\right\attack\swingO3_1.bmp" />
+    <Image Include="Image\Player\Boy\right\attack\swingO3_2.bmp" />
+    <Image Include="Image\Player\Boy\right\default\stand1_0.bmp" />
+    <Image Include="Image\Player\Boy\right\default\stand1_1.bmp" />
+    <Image Include="Image\Player\Boy\right\default\stand1_2.bmp" />
+    <Image Include="Image\Player\Boy\right\default\stand1_3.bmp" />
+    <Image Include="Image\Player\Boy\right\jump\jump_0.bmp" />
+    <Image Include="Image\Player\Boy\right\move\move1_0 (1).bmp" />
+    <Image Include="Image\Player\Boy\right\move\move1_0 (2).bmp" />
+    <Image Include="Image\Player\Boy\right\move\move1_0 (3).bmp" />
+    <Image Include="Image\Player\Boy\right\move\move1_0 (4).bmp" />
+    <Image Include="Image\Player\Boy\right\rope\rope_0.bmp" />
+    <Image Include="Image\Player\Boy\right\rope\rope_1.bmp" />
+    <Image Include="Image\Player\Girl\left\alert\alert_0.bmp" />
+    <Image Include="Image\Player\Girl\left\alert\alert_1.bmp" />
+    <Image Include="Image\Player\Girl\left\alert\alert_2.bmp" />
+    <Image Include="Image\Player\Girl\left\alert\alert_3.bmp" />
+    <Image Include="Image\Player\Girl\left\alert\alert_4.bmp" />
+    <Image Include="Image\Player\Girl\left\attack\swingO1_0.bmp" />
+    <Image Include="Image\Player\Girl\left\attack\swingO1_1.bmp" />
+    <Image Include="Image\Player\Girl\left\attack\swingO1_2.bmp" />
+    <Image Include="Image\Player\Girl\left\attack\swingO3_0.bmp" />
+    <Image Include="Image\Player\Girl\left\attack\swingO3_1.bmp" />
+    <Image Include="Image\Player\Girl\left\attack\swingO3_2.bmp" />
+    <Image Include="Image\Player\Girl\left\default\stand1_0.bmp" />
+    <Image Include="Image\Player\Girl\left\default\stand1_1.bmp" />
+    <Image Include="Image\Player\Girl\left\default\stand1_2.bmp" />
+    <Image Include="Image\Player\Girl\left\default\stand1_3.bmp" />
+    <Image Include="Image\Player\Girl\left\jump\jump_0.bmp" />
+    <Image Include="Image\Player\Girl\left\move\move1_0 (1).bmp" />
+    <Image Include="Image\Player\Girl\left\move\move1_0 (2).bmp" />
+    <Image Include="Image\Player\Girl\left\move\move1_0 (3).bmp" />
+    <Image Include="Image\Player\Girl\left\move\move1_0 (4).bmp" />
+    <Image Include="Image\Player\Girl\left\skill\swingO3_0.bmp" />
+    <Image Include="Image\Player\Girl\left\skill\swingO3_1.bmp" />
+    <Image Include="Image\Player\Girl\left\skill\swingO3_2.bmp" />
+    <Image Include="Image\Player\Girl\right\alert\alert_0.bmp" />
+    <Image Include="Image\Player\Girl\right\alert\alert_1.bmp" />
+    <Image Include="Image\Player\Girl\right\alert\alert_2.bmp" />
+    <Image Include="Image\Player\Girl\right\alert\alert_3.bmp" />
+    <Image Include="Image\Player\Girl\right\alert\alert_4.bmp" />
+    <Image Include="Image\Player\Girl\right\attack\swingO1_0.bmp" />
+    <Image Include="Image\Player\Girl\right\attack\swingO1_1.bmp" />
+    <Image Include="Image\Player\Girl\right\attack\swingO1_2.bmp" />
+    <Image Include="Image\Player\Girl\right\attack\swingO3_0.bmp" />
+    <Image Include="Image\Player\Girl\right\attack\swingO3_1.bmp" />
+    <Image Include="Image\Player\Girl\right\attack\swingO3_2.bmp" />
+    <Image Include="Image\Player\Girl\right\default\stand1_0.bmp" />
+    <Image Include="Image\Player\Girl\right\default\stand1_1.bmp" />
+    <Image Include="Image\Player\Girl\right\default\stand1_2.bmp" />
+    <Image Include="Image\Player\Girl\right\default\stand1_3.bmp" />
+    <Image Include="Image\Player\Girl\right\jump\jump_0.bmp" />
+    <Image Include="Image\Player\Girl\right\move\move1_0 (1).bmp" />
+    <Image Include="Image\Player\Girl\right\move\move1_0 (2).bmp" />
+    <Image Include="Image\Player\Girl\right\move\move1_0 (3).bmp" />
+    <Image Include="Image\Player\Girl\right\move\move1_0 (4).bmp" />
+    <Image Include="Image\Player\Girl\right\skill\swingO3_0.bmp" />
+    <Image Include="Image\Player\Girl\right\skill\swingO3_1.bmp" />
+    <Image Include="Image\Player\Girl\right\skill\swingO3_2.bmp" />
+    <Image Include="Image\story1\background.bmp" />
+    <Image Include="Image\story1\man.bmp" />
+    <Image Include="Image\story1\woman.bmp" />
+    <Image Include="Image\story2\background.bmp" />
+    <Image Include="Image\story2\man.bmp" />
+    <Image Include="Image\story2\npc.bmp" />
+    <Image Include="Image\story2\textleft.bmp" />
+    <Image Include="Image\story2\textright.bmp" />
+    <Image Include="Image\story2\woman.bmp" />
+    <Image Include="Image\Windows\Inventory.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
